@@ -36,11 +36,4 @@ public class TaskController {
 
         return "complete";
     }
-
-
-    @ModelAttribute
-    Task setupTask() {
-        return new Task();
-    }
-
 }
